@@ -1,6 +1,6 @@
 # PlayStation 5 WebKit Cache Remover
 
-Removes the WebKit cache for all users on your jailbroken PlayStation 5 by deleting all `/user/home/<username>/webkit/shell` directories from the PS5 file system. Built using the latest version of [ps5-payload-sdk](https://github.com/ps5-payload-dev/sdk) and tested on my 4.51 PS5 jailbroken using [UMTX2](https://github.com/idlesauce/umtx2).
+Removes the WebKit cache for all users on your jailbroken PlayStation 5 by deleting all `/user/home/<userid>/webkit/shell` directories from the PS5 file system. Built using the latest version of [ps5-payload-sdk](https://github.com/ps5-payload-dev/sdk) and tested on my 4.51 PS5 jailbroken using [UMTX2](https://github.com/idlesauce/umtx2).
 
 To manually send the payload to your PS5, you can use NetCat with the following command: `nc -v -q 0 PS5_IP ELFLDR_PORT < PAYLOAD_PATH`.
 
